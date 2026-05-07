@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão Centralizado</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        background:#111;
+        font-family:Arial, sans-serif;
+    }
+
+    button{
+        padding:18px 40px;
+        font-size:22px;
+        border:none;
+        border-radius:12px;
+        background:#25D366;
+        color:white;
+        cursor:pointer;
+        transition:0.3s;
+        font-weight:bold;
+    }
+
+    button:hover{
+        background:#1ebe5d;
+        transform:scale(1.05);
+    }
+</style>
+</head>
+
+<body>
+
+<button onclick="redirecionar()">Clique Aqui</button>
+
+<script>
+function redirecionar(){
+    window.location.href = "https://wa.me/573011428230?text=oii%2C%20te%20vi%20no%20facebook%20e%20quero%20comprar%20seus%20conteudos!";
+}
+</script>
+
+</body>
+</html>
